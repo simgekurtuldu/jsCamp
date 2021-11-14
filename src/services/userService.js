@@ -8,6 +8,7 @@ export default class UserService{
        this.loggerService.log(user)
     }
 
+
     list(){
         return this.users
     }
